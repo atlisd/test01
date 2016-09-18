@@ -4,7 +4,7 @@ var express = require('express');
 // create an instance of the exprss app
 var app = express();
 
-var port = 5000;
+var port = process.env.PORT || 5000;
 
 // simple routing
 
@@ -21,5 +21,5 @@ app.get('/books', function (req, res) {
 });
 
 app.listen(port, function (err) {
-    console.log('running server on port' + port);
+    console.log('running server on port ' + port);
 });
