@@ -5,3 +5,8 @@
 npm start to run the server..
 
 
+## Global
+    npm install -g global
+    npm install -g bower
+
+## Project level
