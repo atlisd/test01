@@ -1,12 +1,13 @@
 # This is a small study project from pluralsight
 
 
-
-npm start to run the server..
-
+To run the server either...
+ * npm start
+ * gulp serve
 
 ## Global
     npm install -g global
     npm install -g bower
 
 ## Project level
+
