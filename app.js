@@ -17,6 +17,10 @@ app.get('/', function (req, res) {
     res.render('index', {list: ['a', 'b']});
 });
 
+app.get('/Amounts', function(req,res){
+    res.render('amounts');
+})
+
 app.get('/books', function (req, res) {
     res.send('Hello books');
 });
